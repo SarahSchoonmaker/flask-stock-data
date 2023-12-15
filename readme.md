@@ -23,12 +23,12 @@ cd stock-market-visualization
 pip install -r requirements.txt
 ```
 ### Usage
-1. Set your Alpha Vantage API key in the api_key variable in the app.py file.
+1. Set your Alpha Vantage API key in the api_key variable in the main.py file.
 
 2. Start the Flask development server:
 
 ```
-python app.py
+python main.py
 ```
 3. Open your web browser and go to http://localhost:5000.
 
@@ -41,24 +41,20 @@ python app.py
 ## Automatic HTML File Cleanup
 The application includes a script, cleanup_html_files.py, that runs automatically every hour to remove all HTML files in the templates directory except index.html and plot.html. This helps to prevent the accumulation of unnecessary HTML files.
 
-## Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
-
 ## Demo
 
 * The starting UI looks something like this:
 
 ![img_2.png](img_2.png)
 
-* Searching Up for stock results for 'IBM'
+* Searching Up for stock results for 'TSLA'
 
 ![img_1.png](img_1.png)
 
-* Search Up **IBM** hovering over the line graph you can see the price registered as well.
+* Search Up **TSLA** hovering over the line graph you can see the price registered as well.
 
 ![img.png](img.png)
 
 The plot over time is displayed.
 
-## License
-This project is licensed under the MIT License.# flask-stock-data
+
