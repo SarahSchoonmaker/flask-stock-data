@@ -1,5 +1,5 @@
 # Stock Market Visualization Flask App
-This Flask application allows users to enter the name of a company and visualize its stock market data using Plotly.
+This Flask application allows users to enter the name of a company and visualize its performance using Plotly.
 
 ## Prerequisites
 * Python 3.x
